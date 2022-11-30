@@ -1,0 +1,11 @@
+Ways to implement Bootstrap:
+
+i) CDN link directly
+ii) Download the bootstrap zip file.
+iii) Using Node Package Manager (npm)
+
+When you are working with frameworks, we generally have the
+npm install command. At the same time, we see that the bootstrap
+files are downloaded & they are used at the development server.
+But when it goes to the production server, it is always the
+cdn, which works in the best way.

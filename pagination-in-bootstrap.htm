@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagination in Bootstrap</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+</head>
+<body>
+<nav>
+    <ul class="pagination p-2 m-2 pagination-lg justify-content-end">      
+        <li class="page-item disabled"><a href="#" class="page-link">Previous</a></li>
+        <li class="page-item active"><a href="#" class="page-link">1</a></li>
+        <li class="page-item"><a href="#" class="page-link">2</a></li>
+        <li class="page-item"><a href="#" class="page-link">3</a></li>
+        <li class="page-item"><a href="#" class="page-link">4</a></li>
+        <li class="page-item"><a href="#" class="page-link">Next</a></li>
+    </ul>
+</nav>
+</body>
+</html>
+
+<!-- This is the standard practice to use pagination, as mentioned in below syntax:
+<nav>
+    <ul></ul>
+</nav> 
+
+Bootstrap considers <nav> as wrapper.
+Identifies as a "Navigation" section.
+Bootstrap has class with pre-deifned pagination structure.
+-->
+
+<!-- Below is an example of pagination:
+    (where class names as "disabled" and "active" are most useful classes)
+<ul class="pagination pagination-lg p-2 m-2">
+    <li class="page-item disabled"><a href="#" class="page-link">Previous</a></li>
+    <li class="page-item active"><a href="#" class="page-link">1</a></li>
+    <li class="page-item"><a href="#" class="page-link">2</a></li>
+    <li class="page-item"><a href="#" class="page-link">3</a></li>
+    <li class="page-item"><a href="#" class="page-link">4</a></li>
+    <li class="page-item"><a href="#" class="page-link">Next</a></li>
+</ul> -->

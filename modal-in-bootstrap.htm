@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modal in Bootstrap</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body class="bg-dark">
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary m-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        Launch demo modal
+    </button>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-backdrop="static">
+        <div class="modal-dialog modal-dialog-scrollable modal-fullscreen">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laborum sint distinctio voluptas eius delectus reiciendis ipsam nam odit a est minima, eligendi sapiente dignissimos iure nesciunt rerum. Soluta quas voluptates minima ad maiores natus tempore necessitatibus atque dolor culpa? Inventore, repellat blanditiis molestiae harum dolor maiores commodi deleniti reprehenderit, nihil possimus aut voluptatum incidunt natus eveniet! Voluptatem animi consequuntur nobis minima neque, assumenda dolor unde dignissimos quo dolorem eveniet ullam error quisquam veniam inventore ipsam commodi voluptates at enim vero fuga. Ex quasi nam consequuntur ipsa fuga quae amet. Earum eaque eveniet nobis nihil, impedit ab quisquam perspiciatis dignissimos accusamus?
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perferendis, culpa dolorem tenetur neque aut eaque dolore exercitationem suscipit? Vitae nulla cupiditate reprehenderit, consequatur iste magnam blanditiis quia voluptates itaque mollitia quaerat commodi, ducimus voluptatibus debitis consequuntur et accusamus sapiente sed. Nesciunt illum id eaque ducimus quis corporis saepe accusamus est, voluptatibus fuga. Iste voluptatum modi error reiciendis numquam laudantium suscipit repellendus ipsa, assumenda hic et, molestiae autem nihil ab tenetur, nulla doloremque temporibus quae labore ex animi. Ab vero iusto nesciunt fugiat quod unde assumenda hic quidem mollitia, in dolorum. Quo sapiente nesciunt commodi tempora fugit saepe, id ut eos nam repellendus consequuntur culpa nisi consectetur earum, rerum illo autem. Eius, consectetur voluptas quia a error perspiciatis illum saepe debitis distinctio quos quis minima cupiditate repellat facilis, dolorem nemo ipsam harum ipsa iusto cumque deserunt accusamus nesciunt necessitatibus. Illum, porro harum! Dolorem aut ut eaque, assumenda iste ipsa veniam, vel placeat facere molestiae quidem doloremque consectetur labore ex. Architecto nostrum ipsam numquam distinctio iusto sapiente ratione officiis, facere veniam tenetur optio quibusdam illum voluptatem corrupti iure adipisci quidem consectetur voluptates. Amet cupiditate quo fugit repellendus, rerum maxime cumque architecto pariatur aliquid adipisci dicta, ab vero quod quisquam. Voluptatum, quae ducimus?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<!-- Modal window/Lightbox is a webpage element that displays in front
+of the page & deactivates all other page content. 
+
+The purpose of modal is to gain the visitor's focus on something
+simple. For that a modal window is a very effective way.
+
+
+Bootstrap comes with JS so with that user can:
+Add dialogs to the site.
+User notifications.
+Custom contents.
+
+Bootstrap provides two more important classes:
+data-toggle
+data-target
+
+But in BS5 we have "data-bs-toggle" which is an HTML5 data attribute
+It can be assigned with a particular widget by selecting a class
+or id of an element.
+    Similary in BS5 we have "data-bs-target" which is an HTML5 data attribute
+which is a Premade JS component. It contains a CSS selector that
+points to the HTML element.
+
+so, in simple words "data-bs-toggle" tells "what to do?" and
+"data-bs-target" tells "Which element is targeted?"
+
+In Modal "data-bs-backdrop: static" will not close modal window
+if user clicks outside the modal window.
+
+If we want to make "modal" scrollable use below class ("modal-dialog-scrollable"):
+<div class="modal-dialog modal-dialog-scrollable">
+
+If we want to make "modal" fullscreen we can use class("modal-fullscreen"):
+<div class="modal-dialog modal-dialog-scrollable modal-fullscreen">
+
+Size for the screen:
+modal-fullscreen-sm-down
+modal-fullscreen-md-down
+modal-fullscreen-lg-down
+modal-fullscreen-xl-down
+modal-fullscreen-xxl-down
+-->

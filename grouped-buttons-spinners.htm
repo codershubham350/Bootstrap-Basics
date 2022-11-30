@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouped Buttons and Spinners</title>
+    <link rel="stylesheet" href="./bootstrap-5.2.3-dist/css/bootstrap.css">
+</head>
+<body>
+    <div class="container p-5 btn-group">
+        <button class="btn btn-primary"><span class="spinner-border spinner-border-sm"></span>Loading</button>
+        <button class="btn btn-primary"><span class="spinner-grow spinner-grow-sm"></span>Report</button>
+        <button class="btn btn-primary">OK</button>
+    </div>
+</body>
+</html>
+
+<!-- 
+In order to group button we can use "btn-group" in parent wrapper:
+<div class="container p-5 btn-group">
+    <button class="btn btn-primary">Loading</button>
+    <button class="btn btn-primary">Report</button>
+    <button class="btn btn-primary">OK</button>
+</div> -->
+
+<!-- Bootstrap also offers Spinners. Spinners can be used with
+<span> as well as <div> -->

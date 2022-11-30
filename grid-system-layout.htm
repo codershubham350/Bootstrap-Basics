@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gid System Layout</title>
+    <link rel="stylesheet" href="./bootstrap-5.2.3-dist/css/bootstrap.css">
+    <style>
+        body{
+            background: #111;
+            color: #fff;
+        }
+        .container{
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="col-sm-9">
+                <div class="row">
+                    <div class="bg-dark text-white col-md">
+                        <h1>Container 1</h1>
+                    </div>
+                    <div class="bg-light text-dark col-6 col-md-5">
+                        <h1>Container 2 Container 3</h1>
+                    </div>
+                  
+                    <div class="bg-light text-dark col-5 col-sm-6">
+                        <h1>Container 4</h1>
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!-- In grid System we have page which is divided in 12 columns 
+and which implements as 12 parts/1 section or 6parts/2 section etc...
+
+The Grid system is often used in building responsive web pages.
+It is used to distribute the contents accurately throughout the web layout.
+-->
+
+<!-- In above example we have declared the parent wrapper with
+class "row" and the child elements as "col" making elements
+align in the form of grid. 
+
+So, here we have 4 elements and 100% of page means 12 parts
+of page so 12/4 = 3 so every col will take the width of col-3
+or 300px.
+
+Columns width of the container can be mixed according to the
+layout requirements.
+
+Responsive web designs can be configured easily, using grid
+systems.
+-->
+
+<!-- Classes to implement responsive design:
+col     - screen width less than 576px. 
+col-sm  - screen width equal or greater than 576px.
+col-md  - screen width equal or greater than 768px.
+col-lg  - screen width equal or greater than 992px.
+col-xl  - screen width equal or greater than 1200px.
+col-xxl - screen width equal or greater than 1400px.
+-->
+
+<!-- Bootstrap also allows the nesting of the grid layout.
+Nested rows should include set of columns that add 
+upto 12 or fewer columns. (Can see above example for nesting columns)-->

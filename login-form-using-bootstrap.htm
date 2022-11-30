@@ -1,0 +1,59 @@
+<!-- Shorter synatx for bootsrap boilerplate is "!b5-$" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form using Bootstrap</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/css/login-form-bootstrap.css">
+</head>
+<body>
+<div class="container">
+    <div class="row m-5 shadow-lg">
+        <div class="col-md-6 bg-white p-5">
+            <h3 class="pb-3 text-center">Login</h3>
+            <div class="form-style">
+                <form>
+                    <div class="form-group pb-3">
+                        <input type="email" placeholder="Email" class="form-control">
+                    </div>
+                    <div class="form-group pb-3">
+                        <input type="password" placeholder="Password" class="form-control">
+                    </div>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div class="d-flex align-items-center">
+                            <input type="checkbox" value="" name=""/>
+                            <span class="pl-2 font-weight-bold">Remember Me</span>
+                        </div>
+                        <div>
+                            <a href="#">Forgot Password?</a>
+                        </div>
+                       
+                    </div>
+                    <div class="pb-2">
+                        <button type="submit" class="btn btn-dark w-100 font-weight-bold mt-2">Submit</button>
+                    </div>
+                </form>
+                <div class="sideline">OR</div>
+                <div>
+                    <button type="submit" class="btn btn-primary w-100 font-weight-bold mt-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="24px" height="24px">
+                        <path fill="#fff" d="M24 5A19 19 0 1 0 24 43A19 19 0 1 0 24 5Z" />
+                        <path fill="#039be5"
+                            d="M26.572,29.036h4.917l0.772-4.995h-5.69v-2.73c0-2.075,0.678-3.915,2.619-3.915h3.119v-4.359c-0.548-0.074-1.707-0.236-3.897-0.236c-4.573,0-7.254,2.415-7.254,7.917v3.323h-4.701v4.995h4.701v13.729C22.089,42.905,23.032,43,24,43c0.875,0,1.729-0.08,2.572-0.194V29.036z" />
+                    </svg>
+                        Login with Facebook
+                    </button>
+                </div>
+                <div class="pt-4 text-center">
+                    Don't have an account? <a href="#">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

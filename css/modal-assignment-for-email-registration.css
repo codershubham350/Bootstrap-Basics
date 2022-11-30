@@ -1,0 +1,67 @@
+.modal-content{
+    width: 75%;
+    /* height: 75%; */
+    margin: auto;
+}
+
+.modal-body{
+    padding: 0;
+}
+
+.btn-close{
+    position: absolute;
+    right: 0;
+    padding: 1em;
+}
+
+h1{
+    font-size: 2.3rem;
+    font-weight: bold;
+}
+.myForm{
+    padding: 2em;
+    max-width: 100%;
+    color: #fff;
+    box-shadow: 0 4px 6px 0 #111;
+}
+
+.form-control{
+    background-color: inherit;
+    color: #fff;
+    padding-left: 0;
+    border: 0;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+}
+
+.myForm .btn{
+    width: 100%;
+    font-weight: 800;
+    background-color: #fff;
+    border-radius: 0;
+    padding: 0.5em 0;
+}
+
+.myForm .btn:hover{
+    background-color: inherit;
+    color: #fff;
+    border-color: #fff;
+}
+p{
+    text-align: center;
+    padding-top: 2em;
+    color: grey;
+}
+p a{
+    color: #e1e1e1;
+    text-decoration: none;
+}
+p a:hover{
+    color: #fff;
+}
+
+.form-control:focus{
+    background-color: inherit;
+    color: #fff;
+    transition: 0.6 linear;
+}
